@@ -14,7 +14,7 @@
 
 
 
-string[] array1 = new string[5] {"123", "23", "hello", "world", "res"};
+string[] array1 = new string[5] {"1231", "1123", "hello", "world", "res1"};
 string[] array2 = new string[array1.Length];
 void SecondArrayWithIF(string[] array1, string[] array2)
 {
@@ -28,7 +28,7 @@ void SecondArrayWithIF(string[] array1, string[] array2)
         }
     }
 }
-Console.WriteLine("меньше 3 значений");
+Console.WriteLine("меньше 3 элементов");
 void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
@@ -36,7 +36,7 @@ void PrintArray(string[] array)
         Console.WriteLine();
         Console.Write($"{array[i]} \t");
     }
-    Console.WriteLine();
+    Console.WriteLine("нет таких элементов");
 }
 SecondArrayWithIF(array1, array2);
 PrintArray(array2);
