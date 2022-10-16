@@ -14,7 +14,10 @@
 
 
 
-string[] array1 = new string[5] {"1231", "1123", "hello", "world", "res1"};
+// string[] array1 = new string[] {"Russia", "Denmark", "Kazan"};
+// string[] array1 = new string[] {"1234", "1567", "-2", "computer science"};
+string[] array1 = new string[] {"Hello", "2", "world", ":-)"};
+
 string[] array2 = new string[array1.Length];
 void SecondArrayWithIF(string[] array1, string[] array2)
 {
@@ -36,7 +39,7 @@ void PrintArray(string[] array)
         Console.WriteLine();
         Console.Write($"{array[i]} \t");
     }
-    Console.WriteLine("нет таких элементов");
+    Console.WriteLine();
 }
 SecondArrayWithIF(array1, array2);
 PrintArray(array2);
