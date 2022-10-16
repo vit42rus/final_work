@@ -28,11 +28,13 @@ void SecondArrayWithIF(string[] array1, string[] array2)
         }
     }
 }
+Console.WriteLine("меньше 3 значений");
 void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($"{array[i]} ");
+        Console.WriteLine();
+        Console.Write($"{array[i]} \t");
     }
     Console.WriteLine();
 }
